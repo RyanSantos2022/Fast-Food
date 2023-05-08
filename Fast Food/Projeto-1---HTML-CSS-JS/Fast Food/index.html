@@ -13,20 +13,21 @@
 <body>
     <header>
         <nav>
-            <a href="#">PIZZAS</a>
-            <a href="#">BEBIDAS</a>
-            <a href="#">SALGADOS</a>
+            <a href="#pizzas">PIZZAS</a>
+            <a href="#bebidas">BEBIDAS</a>
+            <a href="#salgados">SALGADOS</a>
         </nav>
         <br>
         <figure>
             <img src="img/pizzaBairro.png" alt="Logo pizza do bairro">
         </figure>
     </header>
-    <!--
+    
     <div id="compras">
-        <h4>Caixa de compras</h4>
-        <button>COMPRAR AGORA</button>
-    </div> -->
+        <h4>Clique no botão e faça seu pedido</h4>
+        <br>
+        <button id="btn-compras"><a href="https://api.whatsapp.com/send?phone=5541985239998&text=Ola%20Gostaria%20de%20fazer%20o%20seguinte%20pedido:%0A" target="_blank">FAZER MEU PEDIDO</a> </button>
+    </div> 
     <br>
 
     <section class="conteudo-topo">
@@ -42,92 +43,157 @@
        <h5>apenas R$ 69.99!</h5>
     </section>
     <br>
-    <!----
-    <section class="conteudo">
-        <h2> Este é o segundo titulo</h2>
-        <p>
-            O profissional geralmente possui conhecimento adquirido em faculdades de Sistemas de informação, Sistemas para Internet, Ciência da computação, Análise de sistemas, Engenharia de Computação, Engenharia de Software, Processamento de dados, Informática, Licenciatura em Computação ou outros cursos similares, mas a ausência de restrições para o exercício do cargo permite a profissionais capacitados de outras áreas ou mesmo que não possuem educação superior cumprirem este papel nas empresas.
-        </p>
-    </section>
+    <a href="#" id="pizzas"></a>
     <br>
-    <section class="conteudo">
-        <h2>Esté o o terceiro titulo</h2>
-        <figure>
-            <img class="imagens-site" src="/img/imagem-exemplo.png" alt="Segunda Imagem">
-            <figcaption>Segunda Imagem</figcaption>
-        </figure>
-        <p>
-            Como é uma ênfase, o foco e o núcleo de trabalho está voltado para o processo de desenvolvimento de software, levando em conta a área tecnológica em que irá auxiliar. O analista de sistemas deve servir como um tradutor entre as necessidades do usuário e o programa a ser desenvolvido pelo programador. Para isto, deve ter conhecimento abrangente da área de negócio na qual o sistema será desenvolvido, a fim de que possa implementar corretamente as regras de negócio.
-        </p>
-    </section>
-    <br>
-    <section class="conteudo">
-        <h2>Este é o quarto titulo</h2>
-        <p>
-            Os profissionais da área geram softwares (programas), que são executados em hardwares (equipamentos) operados por usuários (indivíduos), preparados e treinados em procedimentos operacionais padronizados, dotados de conhecimentos do software e hardware para seu trabalho. A partir de então a análise de sistemas é uma profissão cujas responsabilidades concentram-se na análise do sistema e na administração de sistemas computacionais. Cabe a este profissional parte da organização, implantação e manutenção de aplicativos e redes de computadores, ou seja, o analista de sistemas é o responsável pelo levantamento de informações sobre uma empresa a fim de utilizá-las no desenvolvimento de um sistema para a mesma ou para o levantamento de uma necessidade específica do cliente para desenvolver este programa específico com base nas informações colhidas.
-        </p>
-        <br>
-    </section> -->
-    <br>
-
     <section class="conteudo" id="grid-conteudo">
+        <h5>Cardápio de Pizzas</h5>
+        <br>
         
         <div class="grid">
-            <div>conteudo 1</div>
-            <div>conteudo 2</div>
-            <div>conteudo 3</div>
-            <div>conteudo 4</div>
-            <div>conteudo 5</div>
-            <div>conteudo 6</div>
+            <div>
+                <figure>
+                    <img class="imagens-site" src="/Fast Food/Projeto-1---HTML-CSS-JS/Fast Food/img/calabresa.jpg" alt="Pizza de Calabresa">
+                    <figcaption><a href="#"> Pizza de Calabresa</a></figcaption>
+                </figure>
+            </div>
+            <div>
+                <figure>
+                    <img class="imagens-site" src="/Fast Food/Projeto-1---HTML-CSS-JS/Fast Food/img/frango.jpg" alt="Pizza de Frango">
+                    <figcaption><a href="#">Pizza de Frango</a></figcaption>
+                </figure>
+            </div>
+            <div>
+                <figure>
+                    <img class="imagens-site" src="/Fast Food/Projeto-1---HTML-CSS-JS/Fast Food/img/marguerita.jpg" alt="Pizza de Marguerita">
+                    <figcaption><a href="#"> Pizza de Marguerita</a></figcaption>
+                </figure>
+            </div>
+            <div>
+                <Figure>
+                    <img class="imagens-site" src="/Fast Food/Projeto-1---HTML-CSS-JS/Fast Food/img/mussarela.jpg" alt=" Pizza de Mussarela">
+                    <figcaption><a href="#"> Pizza de Mussarela</a></figcaption>
+                </Figure>
+            </div>
+            <div>
+                <figure>
+                    <img class="imagens-site" src="/Fast Food/Projeto-1---HTML-CSS-JS/Fast Food/img/palmito.jpg" alt="Pizza de Palmito">
+                    <figcaption><a href="#"> Pizza de Palmito </a></figcaption>
+                </figure>
+            </div>
+            <div>
+                <figure>
+                    <br>
+                    <img class="imagens-site" src="/Fast Food/Projeto-1---HTML-CSS-JS/Fast Food/img/portuguesa.jpg" alt="Pizza Portuguesa">
+                    <figcaption><a href="#"> Pizza Portuguesa</a></figcaption>
+                </figure>
+            </div>
         </div>
         <br>
     </section>
     <br>
-    <!----
-    <section class="conteudo" id="formulario">
-
-        <h2>Selecione um produto para mais informações</h2>
-        <br>
-        <form action="#" method="get" target="_blank">
-            <label for="nome">Nome</label><br>
-            <input type="text" id="nome" name="nome" placeholder="Digite o seu nome">
-            <br>
-            <br>
-            <label for="telefone">Telefone</label><br>
-            <input type="tel" id="tel" name="tel" placeholder="Digite seu cel com ddd">
-            <br>
-            <br>
-            <input type="checkbox" id="opcoes" name="html" value="html">
-            <label for="html">Quero saber mais sobre HTML e CSS</label>
-            <br>
-            <br>
-            <input type="checkbox" id="opcoes" name="php" value="php">
-            <label for="php">Quero saber mais sobre HTML,CSS e PHP</label>
-            <br>
-            <br>
-            <input type="checkbox" id="opcoes" name="javascript" value="javascript">
-            <label for="javascript">Quero saber mais sobre HTML,CSS e javascript</label>
-            <br>
-            <br>
-            <label for="mensagem">Deixe a sua mensagem (opcional):</label>
-            <br>
-            <br>
-            <textarea id="mensagem" rows="5" cols="25"></textarea>
-            <br>
-            <br>
-            <button id="btn-limpar" type="reset" value="LIMPAR">LIMPAR</button>&nbsp;
-            <button id="btn-enviar" type="submit" value="ENVIAR">ENVIAR</button>
-
-
-        </form>
-
-    </section> -->
+    <a href="#" id="bebidas"></a>
     <br>
+    <section class="conteudo" id="grid-conteudo">
+        <h5>Refrigerantes</h5>
+        <br>
+        
+        <div class="grid">
+            <div>
+                <figure>
+                    <img class="imagens-site" src="/Fast Food/Projeto-1---HTML-CSS-JS/Fast Food/img/refri1.jpg" alt="Coca cola">
+                    <figcaption><a href="#"> Coca Cola 2L</a></figcaption>
+                </figure>
+            </div>
+            <div>
+                <figure>
+                    <img class="imagens-site" src="/Fast Food/Projeto-1---HTML-CSS-JS/Fast Food/img/refri2.jpg" alt="Pizza de Frango">
+                    <figcaption><a href="#">Fanta Laranja</a></figcaption>
+                </figure>
+            </div>
+            <div>
+                <figure>
+                    <img class="imagens-site" src="/Fast Food/Projeto-1---HTML-CSS-JS/Fast Food/img/refri3.jpg" alt="Pizza de Marguerita">
+                    <figcaption><a href="#">Soda Limonada</a></figcaption>
+                </figure>
+            </div>
+            <div>
+                <Figure><br>
+                    <img class="imagens-site" src="/Fast Food/Projeto-1---HTML-CSS-JS/Fast Food/img/refri4.jpg" alt=" Pizza de Mussarela">
+                    <figcaption><a href="#">Refri Lata 500ML</a></figcaption>
+                </Figure>
+            </div>
+            <div>
+                <figure><br>
+                    <img class="imagens-site" src="/Fast Food/Projeto-1---HTML-CSS-JS/Fast Food/img/refri5.jpg" alt="Pizza de Palmito">
+                    <figcaption><a href="#">Coca Cola Lata 500ML</a></figcaption>
+                </figure>
+            </div>
+            <div>
+                <figure>
+                    <br>
+                    <img class="imagens-site" src="/Fast Food/Projeto-1---HTML-CSS-JS/Fast Food/img/refri6.jpg" alt="Pizza Portuguesa">
+                    <figcaption><a href="#">Guarana Lata 500ML</a></figcaption>
+                </figure>
+            </div>
+        </div>
+        <br>
+    </section>
+   <br>
+<a href="#" id="salgados"></a>
+
+   <br>
+
+   <section class="conteudo" id="grid-conteudo">
+    <h5>Cardápio de salgados</h5>
+    <br>
+    
+    <div class="grid">
+        <div>
+            <figure>
+                <img class="imagens-site" src="/Fast Food/Projeto-1---HTML-CSS-JS/Fast Food/img/salgados1.jpg" alt="Pizza de Calabresa">
+                <figcaption><a href="#">Coxinhas Gradnes</a></figcaption>
+            </figure>
+        </div>
+        <div>
+            <figure>
+                <img class="imagens-site" src="/Fast Food/Projeto-1---HTML-CSS-JS/Fast Food/img/salgados2.jpg" alt="Pizza de Frango">
+                <figcaption><a href="#">Bolinho de queijo</a></figcaption>
+            </figure>
+        </div>
+        <div>
+            <figure>
+                <img class="imagens-site" src="/Fast Food/Projeto-1---HTML-CSS-JS/Fast Food/img/salgados3.jpg" alt="Pizza de Marguerita">
+                <figcaption><a href="#">Coxinhas </a></figcaption>
+            </figure>
+        </div>
+        <div>
+            <Figure><br>
+                <img class="imagens-site" src="/Fast Food/Projeto-1---HTML-CSS-JS/Fast Food/img/salgados4.jpg" alt=" Pizza de Mussarela">
+                <figcaption><a href="#">Salgado</a></figcaption>
+            </Figure>
+        </div>
+        <div>
+            <figure><br>
+                <img class="imagens-site" src="/Fast Food/Projeto-1---HTML-CSS-JS/Fast Food/img/salgados5.jpg" alt="Pizza de Palmito">
+                <figcaption><a href="#"> Variados </a></figcaption>
+            </figure>
+        </div>
+        <div>
+            <figure>
+                <br>
+                <img class="imagens-site" src="/Fast Food/Projeto-1---HTML-CSS-JS/Fast Food/img/salgados6.jpg" alt="Pizza Portuguesa">
+                <figcaption><a href="#"> Pizza Portuguesa</a></figcaption>
+            </figure>
+        </div>
+    </div>
+    <br>
+</section>
     <footer>
-        <h3>TECTREINAMENTOS INFORMÁTICA</h3>
-        <h4>Desenvolvimento Web</h4>
-        <p>Contato: ryan.santos@lemeforense.com.br</p>
+        <h3>Pizza do Bairro</h3>
+        <h4>a melhor opção da região!</h4>
+        <br>
         <p>Whatsapp: (41) 981219844</p>
+        <br>
         <p> &copy; Direitos Reservados</p>
     </footer>
 
